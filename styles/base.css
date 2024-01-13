@@ -67,11 +67,15 @@ h2 {
 h3 {
     background-color: rgb(121, 32, 205);
     color: white;
-    padding: 20px;
+    padding: 10px;
+    margin-block: 0;
 }
 
 footer img {
     width: 60px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer {
