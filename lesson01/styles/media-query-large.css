@@ -1,0 +1,39 @@
+@media screen and (min-width: 700px) {
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+      
+    header, main, footer {
+        color: white;
+        margin: 1rem auto;
+        border: 1px solid #bbb;
+        padding: 1rem;
+    }
+    
+    header {
+        background-color: #000000;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+      
+    section {
+        padding: 1rem;
+        background-color: #ffffff;
+    }
+
+    h2 {
+        color: #000000;
+    }
+
+    p {
+        color: #000000;
+    }
+
+    footer {
+        color: #000000;
+    }
+}
