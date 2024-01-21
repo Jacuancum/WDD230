@@ -11,13 +11,13 @@ header {
     
 }
 
-main {
-
-}
-
-main img {
+img {
     width: 400px;
     padding-left: 10px;
+}
+
+#small_pic {
+    width: 300px;
 }
 
 h2 {
