@@ -11,24 +11,43 @@ header {
     
 }
 
+main {
+
+}
+
 main img {
     width: 400px;
-    
-    
+    padding-left: 10px;
 }
 
 h2 {
+    color: white;
     background-color: #332cd4;
     margin-top: auto;
     padding: 5px;
-    border-radius: 12px 12px 0 0;
+    padding-left: 10px;
+    border-radius: 18px 18px 0 0;
 }
 
 .card {    
-    width: fit-content;
-    border: solid #332cd4;
+    width: 420px;
+    border: solid #adaaeb;
     margin-top: 10px;
     border-radius: 20px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card a {
+    margin: 0;
+    padding-top: 0;
+    padding-left: 10px;
 }
 
 footer {
@@ -38,4 +57,22 @@ footer {
     font-size: 20px;
     color: white;
     background-color: #332cd4;
+}
+
+@media screen and (min-width: 900px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        justify-items: center;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+        justify-items: center;
+    }
 }
