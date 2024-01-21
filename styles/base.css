@@ -69,6 +69,10 @@ h2 {
     text-align: center;
 }
 
+.card img {
+    width: 500px;
+}
+
 h3 {
     background-color: rgb(121, 32, 205);
     color: white;
