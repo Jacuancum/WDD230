@@ -1,4 +1,4 @@
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 750px) {
     nav ul{
         display: flex;
     }
@@ -9,5 +9,21 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 1rem;
+    }
+
+    #main-menu {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+  
+    #main-menu li {
+        margin-right: 20px;
+    }
+  
+    .hamburger {
+        display: none;
+        cursor: pointer;
     }
 }

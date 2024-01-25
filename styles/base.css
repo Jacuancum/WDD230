@@ -7,6 +7,24 @@ header {
     background-color: rgb(255, 204, 0);
 }
 
+
+
+.hamburger {
+    display: block;
+    color: white;
+}
+
+#main_menu.show {
+    display: flex;
+}
+
+#main-menu {
+    display: none;
+    flex-direction: column;
+}
+
+
+
 nav {
     left: 0px;
     height: auto;
@@ -25,7 +43,7 @@ nav ul li {
 }
 nav ul li a {
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 5px 0px;
     display: block;
     color: #FFF;
     text-align: center;
