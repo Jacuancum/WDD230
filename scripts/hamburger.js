@@ -1,4 +1,6 @@
-function toggleMenu() {
-    const menu = document.getElementById('main_menu');
-    menu.style.display = (menu.style.display === "flex") ? "none" : "flex";
-}
+const mainnav = document.querySelector('.navigation');
+const hambutton = document.querySelector('#menu');
+hambutton.addEventListener('click', () => {
+    mainnav.classList.toggle('show');
+    hambutton.classList.toggle('show');
+})

@@ -7,9 +7,8 @@ header {
     background-color: rgb(255, 204, 0);
 }
 
-
-
-.hamburger {
+/*----------------------------------------------------------------------*/
+/*.hamburger {
     display: block;
     color: white;
     padding: 7px;
@@ -20,30 +19,78 @@ header {
     display: flex;
 }
 
-#main-menu {
+#main_menu {
     display: none;
     flex-direction: column;
 }
+*/
 
+#menu {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+    padding: .5rem .75rem;
+    background-color: #332cb4;
+    color: white;
+}
+#menu::before {
+    content: "☰";
+}
+.navigation {
+    list-style: none;
+    margin: 0 auto;
+    max-width: 600px;
+}
+/*@media screen and (max-width: 750px) {
+    .navigation li {
+        display: none;
+    }
+}*/
+.navigation a {
+    display: block;
+    padding: .75rem;
+    text-align: left;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    transition: 0.5s;
+    font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+.navigation a:hover {
+    color: white;
+    background-color: #332cb4;
+}
+.show li {
+    display: block;
+}
+#menu.show::before {
+    content: "X";
+}
 
+/*----------------------------------------------------------------------*/
 
 nav {
     background-color: #332cb4;
     width:auto;
     font-size: 18px;
 }
+
 /*nav ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }*/
+
 nav ul {
     display: none;
 }
+
 nav ul li {
     margin: 0;
     padding: 0;
 }
+
 nav ul li a {
     text-decoration: none;
     padding: 5px 0px;
@@ -108,7 +155,6 @@ h3 {
     margin-block: 0;
     text-align: center;
 }
-
 
 #map {
     padding: 10px;

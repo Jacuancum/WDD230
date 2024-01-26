@@ -1,7 +1,6 @@
 @media screen and (min-width: 750px) {
     nav ul{
         display: flex;
-        list-style-type: none;
     }
     nav ul li {
         flex: 1 1 100%;
@@ -12,27 +11,33 @@
         grid-gap: 1rem;
         grid-template-rows: 310px 420px;
     }
+    #menu {
+        display: none;
+    }
 
-    #main-menu {
+    /*
+    #main_menu {
+        display:flex;
         list-style: none;
         padding: 0;
         margin: 0;
         display: flex;
     }
   
-    #main-menu li {
+    #main_menu li {
         margin-right: 20px;
     }
+
+    .hamburger {
+        display: none;
+        cursor: pointer;
+    }
+    */
 
     .card {
         width: auto;
         margin-left: 0;
         margin-right: 0;
-    }
-  
-    .hamburger {
-        display: none;
-        cursor: pointer;
     }
 
     #map {
