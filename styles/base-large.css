@@ -10,6 +10,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 1rem;
+        grid-template-rows: 310px 420px;
     }
 
     #main-menu {
@@ -22,6 +23,12 @@
     #main-menu li {
         margin-right: 20px;
     }
+
+    .card {
+        width: auto;
+        margin-left: 0;
+        margin-right: 0;
+    }
   
     .hamburger {
         display: none;
@@ -29,6 +36,6 @@
     }
 
     #map {
-        
+        grid-column: 1/3;
     }
 }
