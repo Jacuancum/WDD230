@@ -1,3 +1,19 @@
+#hkview {
+    position: relative;
+    background: transparent;
+}
+  
+#hkview::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    pointer-events: none;
+}
+
 #color1 {
     background-color: green;
     width: 150px;
@@ -22,4 +38,25 @@
     top: 12px;
     left: 12px;
     width: 30px;
+}
+
+h3 {
+    font-family: girassol, serif, cambria;
+    font-size: 35px;
+}
+
+h4 {
+    font-family: girassol, serif, cambria;
+    font-size: 30px;
+}
+
+h5 {
+    font-family: girassol, serif, cambria;
+    font-size: 25px;
+}
+
+.ref {
+    font-family: girassol, serif, cambria;
+    font-size: 20px;
+    font-style: italic;
 }
