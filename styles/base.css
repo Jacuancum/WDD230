@@ -63,8 +63,8 @@ header {
     font-size: clamp(1rem, 2vmin, 1.5rem);
 }
 .navigation a:hover {
-    color: white;
-    background-color: #332cb4;
+    color: #332cb4;
+    background-color: #aea5ff;
 }
 .show li {
     display: block;
@@ -79,6 +79,7 @@ nav {
     background-color: #332cb4;
     width:auto;
     font-size: 18px;
+    text-align: center;
 }
 
 /*nav ul {
