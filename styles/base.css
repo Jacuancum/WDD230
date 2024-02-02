@@ -90,6 +90,7 @@ nav {
 
 nav ul {
     display: none;
+    
 }
 
 nav ul li {
@@ -183,4 +184,10 @@ footer {
 
 footer p {
     padding-top: 20px;
+    
 }
+
+a:hover {
+    color:#aea5ff;
+}
+
