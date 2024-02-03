@@ -1,0 +1,38 @@
+.heroimage {
+    width: 100%;
+    max-width: fit-content;
+}
+
+.navigation {
+    display: flex;
+    background-color: green;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 100%;
+}
+ a:hover {
+    background-color: lightgreen;
+    color: rgb(0, 56, 129);
+ }
+ li a {
+    color: rgb(135, 250, 196);
+    text-decoration: none;
+    font-size: 25px;
+ }
+
+ body {
+    font-family: girassol, serif, cambria;
+ }
+
+ footer {
+    background-color: mediumspringgreen;
+ }
+
+ footer a {
+    color: black;
+    text-decoration: none;
+ }
