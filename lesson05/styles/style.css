@@ -10,6 +10,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	font-family: Acme, Arial, sans-serif;
+    
 }
 
 h1 {
@@ -23,6 +24,7 @@ main {
 	background-color: #ddd;
 	display: flex;
 	flex-direction: column;
+    
 }
 
 input,
@@ -58,7 +60,7 @@ li {
 	justify-content: space-between;
 }
 
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 600px) {
 	h1 {
 		font-size: 2rem;
 	}
@@ -66,4 +68,12 @@ li {
 	main {
 		width: 320px;
 	}
+}
+
+#homeicon2 {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    width: 20px;
 }
