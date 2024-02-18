@@ -13,7 +13,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 1rem;
-        grid-template-rows: 500px 70px 340px 430px;
+        grid-template-rows: 500px 70px auto 430px;
     }
 
     #menu {

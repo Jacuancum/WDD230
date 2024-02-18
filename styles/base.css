@@ -26,7 +26,7 @@ header {
     top: 20px;
     right: 20px;
 }
-#menu:before {
+#menu::before {
     content: "☰";
 }
 .navigation {
@@ -52,7 +52,7 @@ header {
 .show li {
     display: block;
 }
-#menu.show:before {
+#menu.show::before {
     content: "X";
 }
 
