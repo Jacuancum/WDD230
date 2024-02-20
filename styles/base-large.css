@@ -1,4 +1,4 @@
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 1000px) {
 
     nav ul {
         display: flex;
@@ -35,25 +35,6 @@
         grid-row: 2/3;
     }
 
-    /*
-    #main_menu {
-        display:flex;
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-    }
-  
-    #main_menu li {
-        margin-right: 20px;
-    }
-
-    .hamburger {
-        display: none;
-        cursor: pointer;
-    }
-    */
-
     .card {
         width: auto;
         margin-left: 0;
@@ -64,5 +45,9 @@
     #map {
         grid-column: 1/3;
         grid-row: 4/5;
+    }
+
+    .herolabel p {
+        color: black;
     }
 }

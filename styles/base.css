@@ -134,7 +134,7 @@ h1 {
 	position: absolute;
 	top: 30px;
 	left: 30px;
-	background: radial-gradient(#fff, #4D5B97);
+	background: radial-gradient(#e2e2e2cc, #4D5B97);
 	border: 1px solid rgba(0,0,0,.75);
 	padding: 1.4rem;
 	box-shadow: 0 0 3rem #fff;
@@ -145,8 +145,9 @@ h1 {
 .herolabel p {
 	margin: 0;
 	padding: .25rem;
-	font-weight: 700;
+	font-weight: 200;
 	font-size: 1.5rem;
+    color: #ffffff;
 	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
