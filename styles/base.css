@@ -10,14 +10,14 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5px;
-    animation-name: banner;
-    animation-duration: 4s;
+    /*animation-name: banner;
+    animation-duration: 4s;*/
 }
-
+/*
 @keyframes banner {
     from {background-color: rgb(255, 204, 0);}
     to {background-color: #332cb4;}
-}
+}*/
 
 /*----------------------------------------------------------------------*/
 
@@ -40,14 +40,14 @@ header {
     list-style: none;
     margin: 0 auto;
     max-width: 600px;
-    animation-name: navigation;
-    animation-duration: 4s;
+    /*animation-name: navigation;
+    animation-duration: 4s;*/
 }
-
+/*
 @keyframes navigation {
     from {background-color: rgb(121, 32, 205);}
     to {background-color: rgb(255, 204, 0);}
-}
+}*/
 
 .navigation a {
     display: block;
@@ -77,14 +77,14 @@ nav {
     width:auto;
     font-size: 18px;
     text-align: center;
-    animation-name: h3;
-    animation-duration: 4s;
+    /*animation-name: h3;
+    animation-duration: 4s;*/
 }
-
+/*
 @keyframes h3 {
     from {background-color: rgb(121, 32, 205);}
     to {background-color: rgb(255, 204, 0);}
-}
+}*/
 
 
 nav ul {
