@@ -14,17 +14,16 @@ ul {
    justify-content: space-around;
    width: 100%;
 }
-a:hover {
-   background-color: lightgreen;
+
+li a:hover {
    color: rgb(0, 56, 129);
 }
-li {
 
-}
 li a {
    color: rgb(135, 250, 196);
    text-decoration: none;
-   font-size: 25px;
+   font-size: 20px;
+   transition: .5s;
 }
 
 body {
@@ -33,14 +32,19 @@ body {
 
 footer {
    background-color: mediumspringgreen;
-   height: 50px;
+   height: auto;
    text-align: center;
    padding-top: 20px;
+   margin-top: 20px;
 }
 
 footer a {
    color: black;
    text-decoration: none;
+}
+
+footer div {
+   padding: 10px;
 }
 
 #homeicon2 {
@@ -51,6 +55,98 @@ footer a {
    width: 40px;
 }
 
-body {
-   
+.discover_news {
+   grid-column: 1/2;
+   border: 1px solid black;
+   width: auto;
+   height: fit-content;
+   padding: 10px;
+   margin: 10px;
+   grid-row: 1;
+}
+
+#discover_visit {
+   grid-column: 1/2;
+   border: 1px solid black;
+   width: auto;
+   height: 200px;
+   padding: 10px;
+   margin-top: auto;
+   margin-bottom: auto;
+   margin-left: 10px;
+   margin-right: 10px;
+   grid-row: 2;
+}
+
+.discover_calendar {
+   grid-column: 1/2;
+   border: 1px solid black;
+   width: auto;
+   height: fit-content;
+   padding: 10px;
+   margin: 10px;
+   grid-row: 3;
+}
+
+.discover_main {
+   display: grid;
+   grid-column: 2/3;
+   grid-row: 1/7;
+   gap: 10px;
+}
+
+#discover_image1 img{
+   width: 100%;
+   margin: 10px;
+   transition: .5s;
+}
+
+#discover_image2 img{
+   width: 100%;
+   margin: 10px;
+   transition: .5s;
+}
+#discover_image3 img{
+   width: 100%;
+   margin: 10px;
+   transition: .5s;
+}
+#discover_image4 img{
+   width: 100%;
+   margin: 10px;
+   transition: .5s;
+}
+#discover_image5 img{
+   width: 100%;
+   margin: 10px;
+   transition: .5s;
+}
+#discover_image6 img{
+   width: 100%;
+   margin: 10px;
+   transition: .5s;
+}
+#discover_image1 img:hover {
+   transform: scale(1.05);
+   box-shadow: 5px 5px 20px 5px dimgrey;
+}
+#discover_image2 img:hover {
+   transform: scale(1.05);
+   box-shadow: 5px 5px 20px 5px dimgrey;
+}
+#discover_image3 img:hover {
+   transform: scale(1.05);
+   box-shadow: 5px 5px 20px 5px dimgrey;
+}
+#discover_image4 img:hover {
+   transform: scale(1.05);
+   box-shadow: 5px 5px 20px 5px dimgrey;
+}
+#discover_image5 img:hover {
+   transform: scale(1.05);
+   box-shadow: 5px 5px 20px 5px dimgrey;
+}
+#discover_image6 img:hover {
+   transform: scale(1.05);
+   box-shadow: 5px 5px 20px 5px dimgrey;
 }
