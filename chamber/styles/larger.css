@@ -1,73 +1,112 @@
 @media screen and (min-width: 1000px) {
-    .discover_grid {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        gap: 10px;
-     }
-     
-     .discover_news {
-        grid-column: 1/2;
-        border: 1px solid black;
-        width: auto;
-        height: fit-content;
-        padding: 10px;
-        margin: 10px;
-        grid-row: 1;
-     }
-     
-     .discover_demo {
-        grid-column: 1/2;
-        border: 1px solid black;
-        width: auto;
-        height: 200px;
-        padding: 10px;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: 10px;
-        margin-right: 10px;
-        grid-row: 2;
-     }
-     
-     .discover_calendar {
-        grid-column: 1/2;
-        border: 1px solid black;
-        width: auto;
-        height: fit-content;
-        padding: 10px;
-        margin: 10px;
-        grid-row: 3;
-     }
-     
-     .discover_main {
-        display: grid;
-        grid-column: 2/3;
-        grid-row: 1/7;
-        gap: 10px;
-     }
-     
-     #discover_image1 img{
-        width: 100%;
-        margin: 10px;
-     }
-     #discover_image2 img{
-        width: 100%;
-        margin: 10px;
-        grid-row: 2;
-     }
-     #discover_image3 img{
-        width: 100%;
-        margin: 10px;
-     }
-     #discover_image4 img{
-        width: 100%;
-        margin: 10px;
-     }
-     #discover_image5 img{
-        width: 100%;
-        margin: 10px;
-     }
-     #discover_image6 img{
-        width: 100%;
-        margin: 10px;
-     }
+   .discover_grid {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 10px;
+   }
+   
+   .discover_news {
+      grid-column: 1/2;
+      border: 1px solid black;
+      width: auto;
+      height: fit-content;
+      padding: 10px;
+      margin: 10px;
+      grid-row: 1;
+   }
+   
+   .discover_demo {
+      grid-column: 1/2;
+      border: 1px solid black;
+      width: auto;
+      height: 200px;
+      padding: 10px;
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: 10px;
+      margin-right: 10px;
+      grid-row: 2;
+   }
+   
+   .discover_calendar {
+      grid-column: 1/2;
+      border: 1px solid black;
+      width: auto;
+      height: fit-content;
+      padding: 10px;
+      margin: 10px;
+      grid-row: 3;
+   }
+   
+   .discover_main {
+      display: grid;
+      grid-column: 2/3;
+      grid-row: 1/7;
+      gap: 10px;
+   }
+   
+   #discover_image1 img{
+      width: 100%;
+      margin: 10px;
+   }
+   #discover_image2 img{
+      width: 100%;
+      margin: 10px;
+      grid-row: 2;
+   }
+   #discover_image3 img{
+      width: 100%;
+      margin: 10px;
+   }
+   #discover_image4 img{
+      width: 100%;
+      margin: 10px;
+   }
+   #discover_image5 img{
+      width: 100%;
+      margin: 10px;
+   }
+   #discover_image6 img{
+      width: 100%;
+      margin: 10px;
+   }
+
+   .card img{
+      width: auto;
+      height: 250px;
+   }
+   .card {
+      width: 460px;
+      float:left ;
+      justify-content: center;
+   }
+   #icon {
+      width: 100px;
+      height: 100px;
+   }
+   .mainandfooter {
+      width: 100%;
+      display: grid;
+      grid-template-rows: auto auto;
+   }
+   .info {
+      display: grid;
+      grid-template-rows: auto auto auto;
+      justify-items: center;
+   }
+   .topinfo {
+      grid-row: 1/2;
+   }
+   #membersplotlights {
+      grid-row: 2/3;
+   }
+   .spotlights {
+      width: 100%;
+      grid-row: 3/4;
+   }
+   footer {
+      bottom: 0;
+      width: 100%;
+      grid-row: 2/3;
+   }
 }

@@ -6,23 +6,23 @@
     <title>Document</title>
     <link rel="icon" href="favicon2.ico">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <a id="homeicon2" href="https://jacuancum.github.io/wdd230/index.html"><img src="images/homeicon.png" width="35px" alt="homeicon"></a>
-        <picture>
-            <source media="(min-width: 1300px)" srcset="images/wdd230-org_large.webp">
-            <source media="(min-width: 800px)" srcset="images/wdd230-org_medium.webp">
-            <source srcset="images/wdd230-org_small.webp">
-            <img src="chamber/images/Tung Chung view.jpg" alt="Tung Chung view">
-        </picture>
+        <div class="hero_container">
+            <a id="homeicon2" href="https://jacuancum.github.io/wdd230/index.html"><img src="images/homeicon.png" width="35px" alt="homeicon"></a>
+            <img class="heroimage" src="images/tung_chung_park.webp" alt="Tung Chung park view">
+            <div class="fade"></div>
+        </div>
+    </header>
+    <div class="mainandfooter">
+    <main>
         <h1>Tung Chung</h1>
         <h3>Chamber of Commerce</h3>
-    </header>
-    <main>
         <nav class="navigation">
             <ul>
                 <li><a href="">Home</a></li>
@@ -31,40 +31,59 @@
                 <li><a href="">Join</a></li>
             </ul>
         </nav>
-        <section></section>
-        <section>
-            <div>
-                Events
-            </div>
-            <div>
-                weather
-            </div>
-        </section>
-        <section>
-            <h2>Member Spotlights</h2>
-            <div>
-                <h3>7 Dragons Gym</h3>
-                <h5></h5>
-            </div>
-            <div>
-                <h3>Pet Lover</h3>
-                <h5></h5>
-            </div>
-            <div>
-                <h3>Six Chips Guys</h3>
-                <h5></h5>
-            </div>
-        </section>
+        <div class="info">
+            <section class="topinfo">
+                <div class="card">
+                    <h2>Events</h2>
+                    <img id="icon" src="images/pizza_icon.png" alt="pizza">
+                    <p>Brunch party<br>
+                        Welcome everyone!<br>
+                        Place: PizzaExpress<br>
+                        Date: June 23, 2024<br>
+                        Time: 11am - 2pm<br>
+                        Fee: $80
+                    </p>
+                </div>
+                <div class="card">
+                    <h2>weather</h2>
+                </div>
+            </section>
+            <h2 id="memberspotlights">Member Spotlights</h2>
+            <section class="spotlights">
+                <div class="card">
+                    <img src="images/gym.webp" alt="The gym room">
+                    <div class="card_content">
+                        <h3>7 Dragons Gym</h3>
+                        <h5></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/pet.webp" alt="animals">
+                    <div class="card_content">
+                        <h3>Pet Lover</h3>
+                        <h5></h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/chips.webp" alt="chips">
+                    <div class="card_content">
+                        <h3>Six Chips Guys</h3>
+                        <h5></h5>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
     <footer>
         <div>
             <img src="" alt="chamber_logo">
             <h4>
-                chamber name
+                Tung Chung chamber
             </h4>
             <p>address</p>
-            <p>chamber email</p>
-            <p>chamber phone no</p>
+            <p>No.123 Peace street, 45 Hopeful city, Hong Kong</p>
+            <p>chamber email: info@tungchungChamber.org</p>
+            <p>chamber phone no: (+852)6789-1234</p>
             here the google map
         </div>
         <div>-------------------------------------------------------------------</div>
@@ -72,5 +91,6 @@
             Created by Jacob Chan | Project for WDD 230 | last modification date
         </div>
     </footer>
+    </div>
 </body>
 </html>
