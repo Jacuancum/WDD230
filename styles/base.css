@@ -22,9 +22,7 @@ header {
 /*----------------------------------------------------------------------*/
 
 #menu {
-    display: block;
-    font-size: 2.5rem;
-    font-weight: 400;
+    font-size: 1.5rem;
     text-decoration: none;
     padding: .5rem .75rem;
     background-color: #332cb4;
@@ -36,10 +34,17 @@ header {
 #menu::before {
     content: "☰";
 }
+#menu.show::before {
+    content: "X";
+}
+
+
 .navigation {
+    display: flex;
+    flex-direction: column;
     list-style: none;
-    margin: 0 auto;
-    max-width: 600px;
+    margin: auto;
+    width: 100%;
     /*animation-name: navigation;
     animation-duration: 4s;*/
 }
@@ -50,24 +55,23 @@ header {
 }*/
 
 .navigation a {
-    display: block;
     padding: .75rem;
-    text-align: left;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: white;
     font-weight: 700;
     transition: 0.5s;
-    font-size: clamp(1rem, 2vmin, 1.5rem);
+    font-size: 22px;
+    text-align: center;
 }
 .navigation a:hover {
     color: #332cb4;
     background-color: #aea5ff;
 }
-.show li {
+.open a {
     display: block;
 }
-#menu.show::before {
-    content: "X";
+.active::before {
+    content: "?";
 }
 
 /*----------------------------------------------------------------------*/

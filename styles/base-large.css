@@ -1,14 +1,4 @@
 @media screen and (min-width: 1000px) {
-
-    nav ul {
-        display: flex;
-    }
-
-    nav ul li {
-        flex: 1 1 100%;
-        
-    }
-
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -18,6 +8,14 @@
 
     #menu {
         display: none;
+    }
+
+    .navigation {
+        flex-direction: row;
+    }
+    .navigation a {
+        display: block;
+        flex: 1 1 100%;
     }
 
     .hero {

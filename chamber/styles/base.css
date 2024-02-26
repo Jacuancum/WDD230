@@ -86,6 +86,10 @@ footer div {
    height: 100px;
    justify-self: center;
 }
+#yahoologo {
+   width: 120px;
+   height: 25px;
+}
 .card {
    display: grid;
    grid-template-rows: auto auto;
