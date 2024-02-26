@@ -13,6 +13,7 @@ header {
     /*animation-name: banner;
     animation-duration: 4s;*/
 }
+
 /*
 @keyframes banner {
     from {background-color: rgb(255, 204, 0);}
@@ -20,9 +21,14 @@ header {
 }*/
 
 /*----------------------------------------------------------------------*/
-
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 #menu {
     font-size: 1.5rem;
+    border: 0;
     text-decoration: none;
     padding: .5rem .75rem;
     background-color: #332cb4;
@@ -31,10 +37,12 @@ header {
     top: 20px;
     right: 20px;
 }
+
 #menu::before {
     content: "☰";
 }
-#menu.show::before {
+
+#menu.open::before {
     content: "X";
 }
 
@@ -48,6 +56,7 @@ header {
     /*animation-name: navigation;
     animation-duration: 4s;*/
 }
+
 /*
 @keyframes navigation {
     from {background-color: rgb(121, 32, 205);}
@@ -55,6 +64,7 @@ header {
 }*/
 
 .navigation a {
+    display: none;
     padding: .75rem;
     text-decoration: none;
     color: white;
@@ -63,27 +73,27 @@ header {
     font-size: 22px;
     text-align: center;
 }
+
 .navigation a:hover {
     color: #332cb4;
     background-color: #aea5ff;
 }
+
 .open a {
     display: block;
-}
-.active::before {
-    content: "?";
 }
 
 /*----------------------------------------------------------------------*/
 
 nav {
     background-color: #332cb4;
-    width:auto;
+    width: auto;
     font-size: 18px;
     text-align: center;
     /*animation-name: h3;
     animation-duration: 4s;*/
 }
+
 /*
 @keyframes h3 {
     from {background-color: rgb(121, 32, 205);}
@@ -124,9 +134,9 @@ h1 {
 }
 
 .hero {
-	margin: 5px auto;
-	position: relative;
-	border: 1px solid rgba(0,0,0,.1);
+    margin: 5px auto;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, .1);
 }
 
 .hero img {
@@ -135,24 +145,24 @@ h1 {
 }
 
 .herolabel {
-	position: absolute;
-	top: 30px;
-	left: 30px;
-	background: radial-gradient(#e2e2e2cc, #4D5B97);
-	border: 1px solid rgba(0,0,0,.75);
-	padding: 1rem;
-	box-shadow: 0 0 3rem #fff;
-	opacity: 0.75;
-	
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background: radial-gradient(#e2e2e2cc, #4D5B97);
+    border: 1px solid rgba(0, 0, 0, .75);
+    padding: 1rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75;
+
 }
 
 .herolabel p {
-	margin: 0;
-	padding: .2rem;
-	font-weight: 400;
-	font-size: 1.5rem;
+    margin: 0;
+    padding: .2rem;
+    font-weight: 400;
+    font-size: 1.5rem;
     color: #ffffff;
-	font-family: "Great Vibes", cursive, 'Arial Narrow Bold', sans-serif;
+    font-family: "Great Vibes", cursive, 'Arial Narrow Bold', sans-serif;
 }
 
 main {
@@ -222,10 +232,9 @@ footer {
 
 footer p {
     padding-top: 20px;
-    
+
 }
 
 a:hover {
-    color:#aea5ff;
+    color: #aea5ff;
 }
-
