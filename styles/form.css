@@ -1,0 +1,233 @@
+@media screen and (min-width: 1000px) {
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        flex-direction: row;
+    }
+    .navigation a {
+        display: block;
+        flex: 1 1 100%;
+    }
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    margin-top: 0;
+    padding-top: 0;
+    height: 130px;
+    background-color: rgb(255, 204, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+    align-self: center;
+}
+
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    text-decoration: none;
+    padding: .5rem .75rem;
+    background-color: #332cb4;
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: auto;
+    width: 100%;
+    /*animation-name: navigation;
+    animation-duration: 4s;*/
+}
+
+/*
+@keyframes navigation {
+    from {background-color: rgb(121, 32, 205);}
+    to {background-color: rgb(255, 204, 0);}
+}*/
+
+.navigation a {
+    display: none;
+    padding: .75rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    transition: 0.5s;
+    font-size: 22px;
+    text-align: center;
+}
+
+.navigation a:hover {
+    color: #332cb4;
+    background-color: #aea5ff;
+}
+
+.open a {
+    display: block;
+}
+
+nav {
+    background-color: #332cb4;
+    width: auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 5px 0px;
+    display: block;
+    color: #FFF;
+    text-align: center;
+}
+
+#myimage {
+    box-shadow: 0 0 20px;
+    width: 90px;
+    border: 2px solid #332cb4;
+    margin: 5px;
+    grid-column: 1/2;
+    align-self: center;
+    justify-self: right;
+}
+
+footer img {
+    width: 60px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-color: #332cb4;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+footer p {
+    padding-top: 20px;
+
+}
+
+a:hover {
+    color: #aea5ff;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto 400px auto;
+    z-index: 1;
+}
+
+.form1 {
+    grid-column: 2/3;
+    background-color: rgba(255, 255, 255, 0.671) ;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid;
+    box-shadow: 1px 1px 10px;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+}
+
+input {
+    padding: 6px;
+    padding-right: 100px;
+}
+
+input[type="radio"] {
+	display: none;
+	caret-color: rgba(0, 0, 0, 0);
+}
+
+.stars {
+	display: flex;
+	justify-content: start;
+    
+}
+
+.stars > label {
+	color: gold;
+	width: 28px;
+	height: 30px;
+	font-size: 2rem;
+	margin-left: 5px;
+	display: flex;
+	align-items: center;
+	caret-color: rgba(0, 0, 0, 0); /* remove blinking cursor*/
+}
+
+.stars > label:hover {
+	color: #ff9900;
+}
+
+.stars > label::before {
+	content: "\2606";
+}
+
+.stars input:checked ~ label::before {
+	content: "\2605";
+}
+
+.req::after {
+	font-size: 15px;
+	content: "*️";
+    color: red;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 6px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1rem;
+    
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
