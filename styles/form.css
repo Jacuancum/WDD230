@@ -40,12 +40,12 @@ h1 {
     font-size: 1.5rem;
     border: 0;
     text-decoration: none;
-    padding: .5rem .75rem;
+    padding: .2rem .6rem;
     background-color: #332cb4;
     color: white;
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 12px;
+    right: 12px;
 }
 
 #menu::before {
