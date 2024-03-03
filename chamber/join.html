@@ -32,6 +32,41 @@
             </ul>
         </nav>
         
+        <div class="form1">
+            <label for="fname" class="req">First Name</label>
+            <input name="fname" id="fname" type="text" required placeholder="Please enter your first name" autocomplete="firstName"/>
+
+            <label for="lname" class="req">Last Name</label>
+            <input name="lname" id="lname" type="text" required placeholder="Please enter your last name" autocomplete="lastName"/>
+
+            <label for="title" class="req">Title/Position</label>
+            <input name="title" id="title" type="text" required pattern="[A-Za-z0-9\s]{7,}"/>
+        
+            <label for="email" class="req">Email</label>
+            <input name="email" id="email" type="email" required autocomplete="example@email.com"/>
+
+            <label for="mobilePhoneNumber" class="req">Mobile phone number</label>
+            <input name="mobilePhoneNumber" id="mobilePhoneNumber" type="telephone" required />
+
+            <label for="businessName" >Business/Organization's name</label>
+            <input name="businessName" id="businessName" type="text" required />
+
+            <label for="membershipLevel" >Membership level</label>
+                <select name="membershipLevel" id="membershipLevel">
+                    <option value="np">NP Membership</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                </select>
+                <p class="smalldesc">(NP is for Non-profit Organization, no fee)</p>
+            
+            <label for="businessDescription" >Business/Organization's description</label>
+            <input name="businessDescription" id="businessDescription" type="text"/>
+
+            <input type="hidden" name="dateTime" id="dateTime"/>
+
+            <br><button type="submit">Join</button>
+        </div>
     </main>
     <footer>
         <div>
