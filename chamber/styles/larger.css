@@ -112,4 +112,8 @@
       width: 100%;
       grid-row: 2/3;
    }
+
+   .grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+   }
 }

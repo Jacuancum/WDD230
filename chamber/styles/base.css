@@ -25,6 +25,7 @@
 .navigation {
    display: flex;
    background-color: green;
+   padding: 10px;
 }
 
 ul {
@@ -101,6 +102,7 @@ footer div {
    grid-row: 1;
    width: 100%;
    transition: .5s;
+   margin: auto;
 }
 .card_content {
    grid-row: 2;
@@ -241,4 +243,104 @@ button {
 	font-size: 20px;
 	content: "*️";
     color: red;
+}
+/* -------------------------------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+
+.menu {
+	text-align: center;
+}
+
+.menu button img {
+   width: 40px;
+}
+
+section {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #eee;
+   width: 400px;
+   height: 230px;
+}
+
+section:hover {
+   transform: scale(1.025);
+   box-shadow: 5px 5px 20px 5px dimgrey;
+   transition: .5s;
+}
+
+.grid {
+   margin-top: 20px;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 5px;
+	align-items: center;
+   justify-items: center;
+}
+
+.grid section {
+	text-align: center;
+}
+
+.grid img {
+	border: 1px solid #fff;
+	box-shadow: 0 0 10px #333;
+   width: 130px;
+}
+
+.grid section > * {
+	margin: 0.1rem;
+}
+
+.grid h3 {
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	margin: 0;
+	padding: 0.25rem;
+}
+
+.list section > * {
+	margin: 0 1rem;
+}
+
+.list section img {
+	display: none; /* smaller viewports only */
+}
+
+.list section h3 {
+	font-size: 1rem;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.list section:nth-child(even) {
+	background-color: #bed;
+}
+
+section h3 {
+	font-size: 1.5rem;
+}
+
+section p {
+	font-weight: 600;
+	font-size: smaller;
+}
+
+section a {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 0.85rem;
+	color: navy;
+	letter-spacing: 1.1pt;
 }
