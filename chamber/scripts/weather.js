@@ -20,11 +20,35 @@ const url = 'https://api.openweathermap.org/data/2.5/weather?lat=22.41526&lon=11
   apiFetch();
 
   function displayResults(data) {
-    const Celsiustemp = Math.round(data.main.temp - 273.15);
-    currentTemp.innerHTML = `${Celsiustemp}&deg;C`;
-    const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
-    let desc = data.weather[0].description;
-    weatherIcon.setAttribute('src', iconsrc);
-    weatherIcon.setAttribute('alt', desc);
-    captionDesc.textContent = `${desc}`;
+    const forecasts = data.list.slice(0,3);
+    forecasts.foreach((forecasts, index)=> {
+      const date =new Date(forcast.dt * 1000);
+      const day = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'][date.getDay()];
+      const tempElement = document.createElement('p');
+
+      const Celsiustemp = Math.round(data.main.temp - 273.15);
+      currentTemp.innerHTML = `${day}: ${Celsiustemp}&deg;C`;
+      const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+      let desc = data.weather[0].description;
+      weatherIcon.setAttribute('src', iconsrc);
+      weatherIcon.setAttribute('alt', desc);
+      captionDesc.textContent = `${desc}`;
+
+      document.body.appendChild(tempElement);
+    });
   }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const today = new Date();
+    const dayOfWeek = today.getDay(); // 0 for Sunday, 1 for Monday, ..., 6 for Saturday
+
+    if (dayOfWeek >= 1 && dayOfWeek <= 3) { // Show the banner only on Monday, Tuesday, and Wednesday
+        const banner = document.getElementById('meeting-banner');
+        banner.style.display = 'block';
+
+        const closeBtn = document.getElementById('close-banner');
+        closeBtn.addEventListener('click', function() {
+            banner.style.display = 'none';
+        });
+    }
+});

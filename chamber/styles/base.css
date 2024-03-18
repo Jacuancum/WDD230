@@ -74,7 +74,7 @@ main {
 .topcard {
    margin: auto;
    border: 1px solid gray;
-   width: 300px;
+   width: 400px;
    height: 270px;
    background-color: rgba(255, 255, 255, 0.644);
    border-radius: 10px;
@@ -390,4 +390,26 @@ section a {
 .homecard img:hover {
    transform: scale(1.05);
    box-shadow: 5px 5px 20px 5px dimgrey;
+}
+
+.banner {
+   display: none;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: auto;
+   background-color: #f8d7da;
+   color: #721c24;
+   padding: 10px;
+   text-align: center;
+}
+
+.banner p {
+   padding: 20px;
+   font-size: 20px;
+}
+
+#close-banner {
+   cursor: pointer;
 }
