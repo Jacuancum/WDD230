@@ -99,6 +99,17 @@
    }
    .topinfo {
       grid-row: 1/2;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+   }
+   .topcard {
+      margin: auto;
+      border: 1px solid gray;
+      width: 300px;
+      height: 270px;
+      background-color: rgba(255, 255, 255, 0.637);
+      border-radius: 10px;
    }
    #membersplotlights {
       grid-row: 2/3;
@@ -106,14 +117,25 @@
    .spotlights {
       width: 100%;
       grid-row: 3/4;
+      height: auto;
    }
-   footer {
-      bottom: 0;
-      width: 100%;
-      grid-row: 2/3;
-   }
-
    .grid {
       grid-template-columns: 1fr 1fr 1fr 1fr;
+   }
+   main {
+      grid-row: 1/4;
+   }
+
+   .homecard img{
+      width: auto;
+      height: 250px;
+   }
+   .homecard {
+      width: 460px;
+      float:left ;
+      justify-content: center;
+      background-color: rgba(255, 255, 255, 0.4);
+      border-radius: 10px;
+      
    }
 }
