@@ -21,12 +21,13 @@ const url = 'https://api.openweathermap.org/data/2.5/weather?lat=22.41526&lon=11
 
   function displayResults(data) {
     const forecasts = data.list.slice(0,3);
-    forecasts.foreach((forecasts, index)=> {
-      const date =new Date(forcast.dt * 1000);
+    forecasts.foreach((forecast, index)=> {
+      const Celsiustemp = Math.round(forecast.main.temp - 273.15);
+      const date =new Date(forecasts.dt * 1000);
       const day = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'][date.getDay()];
       const tempElement = document.createElement('p');
 
-      const Celsiustemp = Math.round(data.main.temp - 273.15);
+      
       currentTemp.innerHTML = `${day}: ${Celsiustemp}&deg;C`;
       const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
       let desc = data.weather[0].description;
