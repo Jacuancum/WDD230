@@ -80,9 +80,7 @@ main {
    box-shadow: 5px 5px 20px 5px dimgrey;
    transition: .5s;
 }
-.spotlights {
-   height: auto;
-}
+
 footer {
    background-color: rgb(186, 255, 186);
    bottom: 0;
