@@ -20,6 +20,7 @@
 .mainandfooter {
    position: absolute;
    top: 230px;
+   width: 100%;
    display: grid;
    grid-template-rows: auto auto auto auto;
 }
@@ -132,6 +133,11 @@ footer div {
    transform: scale(1.05);
    box-shadow: 5px 5px 20px 5px dimgrey;
 }
+.discover_mainandfooter {
+   position: absolute;
+   top: 230px;
+   width: 100%;
+}
 .discover_news {
    grid-column: 1/2;
    border: 1px solid black;
@@ -139,7 +145,6 @@ footer div {
    height: fit-content;
    padding: 10px;
    margin: 10px;
-   grid-row: 1;
 }
 #discover_visit {
    grid-column: 1/2;
@@ -151,7 +156,6 @@ footer div {
    margin-bottom: auto;
    margin-left: 10px;
    margin-right: 10px;
-   grid-row: 2;
 }
 .discover_calendar {
    grid-column: 1/2;
@@ -160,12 +164,10 @@ footer div {
    height: fit-content;
    padding: 10px;
    margin: 10px;
-   grid-row: 3;
 }
 .discover_main {
    display: grid;
    grid-column: 2/3;
-   grid-row: 1/7;
    gap: 10px;
 }
 #discover_image1 img{
@@ -276,20 +278,6 @@ button {
 .menu button img {
    width: 40px;
 }
-
-section {
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	padding: 0.5rem;
-   width: 400px;
-   height: 230px;
-}
-
-section:hover {
-   transform: scale(1.025);
-   box-shadow: 5px 5px 20px 5px dimgrey;
-   transition: .5s;
-}
-
 .grid {
    margin-top: 20px;
 	display: grid;
@@ -366,23 +354,21 @@ section a {
    background-color: rgba(250, 235, 215, 0.514);
 }
 
+.homecard img{
+   width: auto;
+   height: 150px;
+}
 .homecard {
-   display: grid;
-   grid-template-rows: auto auto;
-   border: 1px solid black;
-   padding: 10px;
    margin: 5px;
+   width: 400px;
+   height: 250px;
+   float:left ;
+   justify-content: center;
+   background-color: rgba(255, 255, 255, 0.4);
+   border-radius: 10px;
 }
-.homecard img {
-   grid-row: 1;
-   width: 100%;
-   transition: .5s;
-   margin: auto;
-}
-.homecard_content {
-   grid-row: 2;
-}
-.homecard img:hover {
+
+.homecard:hover {
    transform: scale(1.05);
    box-shadow: 5px 5px 20px 5px dimgrey;
 }

@@ -3,6 +3,7 @@
       display: grid;
       grid-template-columns: 1fr 2fr;
       gap: 10px;
+      width: auto;
    }
    
    .discover_news {
@@ -52,7 +53,6 @@
    #discover_image2 img{
       width: 100%;
       margin: 10px;
-      grid-row: 2;
    }
    #discover_image3 img{
       width: 100%;
@@ -127,10 +127,12 @@
 
    .homecard img{
       width: auto;
-      height: 250px;
+      height: 150px;
    }
    .homecard {
-      width: 460px;
+      margin: 5px;
+      width: 400px;
+      height: 250px;
       float:left ;
       justify-content: center;
       background-color: rgba(255, 255, 255, 0.4);
