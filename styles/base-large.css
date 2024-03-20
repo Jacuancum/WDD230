@@ -25,7 +25,7 @@
 
     .hero img {
         width: 800px;
-        height: 520px;
+        height: 500px;
     }
 
     h2 {
@@ -47,5 +47,13 @@
 
     .herolabel p {
         color: black;
+    }
+
+    .infocard {
+        width: auto;
+        margin-left: 0;
+        margin-right: 0;
+        grid-row: 3/4;
+        text-align: center;
     }
 }

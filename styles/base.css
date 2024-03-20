@@ -22,10 +22,11 @@ header {
 
 /*----------------------------------------------------------------------*/
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 #menu {
     font-size: 1.5rem;
     border: 0;
@@ -221,10 +222,37 @@ footer {
 }
 
 footer p {
-    padding-top: 20px;
+    padding-bottom: 10px;
 
 }
 
 a:hover {
     color: #aea5ff;
+}
+
+.flag {
+    margin-top: 10px;
+    width: 70px;
+}
+
+#weather-icon {
+    width: 80px;
+}
+
+#current-temp {
+    font-size: 30px;
+}
+
+figure {
+    text-align: center;
+}
+
+.infocard {
+    padding: 2px;
+    border: 1px solid #aaaaaa;
+    box-shadow: 0 0 20px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
