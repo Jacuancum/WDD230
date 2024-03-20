@@ -104,7 +104,6 @@
       justify-content: center;
    }
    .topcard {
-      margin: auto;
       border: 1px solid gray;
       width: 400px;
       height: 270px;
@@ -136,7 +135,6 @@
       justify-content: center;
       background-color: rgba(255, 255, 255, 0.4);
       border-radius: 10px;
-      
    }
 
    .banner {
@@ -158,5 +156,7 @@
   
    #close-banner {
       cursor: pointer;
+      background-color: rgb(132, 233, 146);
+      padding: 2px;
    }
 }

@@ -29,34 +29,28 @@
    background-color: green;
    padding: 10px;
 }
-
 nav {
    width: 100%;
 }
-
 ul {
    display: flex;
    list-style-type: none;
    justify-content: space-around;
    width: 100%;
 }
-
 li a:hover {
    color: rgb(0, 56, 129);
 }
-
 li a {
    color: rgb(135, 250, 196);
    text-decoration: none;
    font-size: 20px;
    transition: .5s;
 }
-
 body {
    font-family: Trebuchet MS, serif, cambria;
    text-align: center;
 }
-
 h1,h2,h3 {
    text-shadow: 1px 5px 10px white;
 }
@@ -80,6 +74,11 @@ main {
    border-radius: 10px;
    margin-top: 5px;
 }
+.topcard:hover {
+   transform: scale(1.025);
+   box-shadow: 5px 5px 20px 5px dimgrey;
+   transition: .5s;
+}
 .spotlights {
    height: auto;
 }
@@ -97,7 +96,6 @@ footer img {
 footer div {
    padding: 10px;
 }
-
 #homeicon2 {
    content: "";
    position: absolute;
@@ -134,7 +132,6 @@ footer div {
    transform: scale(1.05);
    box-shadow: 5px 5px 20px 5px dimgrey;
 }
-
 .discover_news {
    grid-column: 1/2;
    border: 1px solid black;
@@ -225,7 +222,6 @@ footer div {
    transform: scale(1.05);
    box-shadow: 5px 5px 20px 5px dimgrey;
 }
-
 .form1 {
    grid-column: 2/3;
    background-color: rgba(255, 255, 255, 0.671) ;
@@ -237,7 +233,6 @@ footer div {
    margin-left: auto;
    margin-right: auto;
 }
-
 label {
    display: block;
    margin-top: 1rem;
@@ -412,4 +407,11 @@ section a {
 
 #close-banner {
    cursor: pointer;
+   background-color: rgb(132, 233, 146);
+   padding: 2px;
+}
+#close-banner:hover {
+   transform: scale(1.025);
+   box-shadow: 5px 5px 20px 5px dimgrey;
+   transition: .5s;
 }
