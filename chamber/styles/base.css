@@ -129,7 +129,7 @@ footer div {
 }
 .discover_mainandfooter {
    position: absolute;
-   top: 230px;
+   top: 80px;
    width: 100%;
 }
 .discover_news {
@@ -365,8 +365,8 @@ section a {
 }
 
 .homecard:hover {
-   transform: scale(1.05);
-   box-shadow: 5px 5px 20px 5px dimgrey;
+   transform: scale(1.01);
+   box-shadow: 5px 5px 10px 5px dimgrey;
 }
 
 .banner {
