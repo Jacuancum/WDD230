@@ -402,3 +402,11 @@ section a {
    box-shadow: 5px 5px 20px 5px dimgrey;
    transition: .5s;
 }
+
+#current-temp {
+   font-size: 40px;
+}
+
+#weather-icon {
+   width: 100px;
+}
