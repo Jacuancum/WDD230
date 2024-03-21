@@ -19,7 +19,7 @@
 }
 .mainandfooter {
    position: absolute;
-   top: 120px;
+   top: 80px;
    width: 100%;
    display: grid;
    grid-template-rows: auto auto auto auto;
@@ -408,10 +408,47 @@ section a {
 
 .chamber_logo {
    border-radius: 50%;
-   width: 50px;
+   width: 80px;
 }
 
 .chamber_logo_big {
    border-radius: 50%;
-   width: 150px;
+   width: 200px;
+}
+.join_us a {
+   text-decoration: none;
+   color: lightgreen;
+   font-size: 30px;
+   text-shadow: 0px 0px 20px #ffffff;
+}
+.join_us {
+   position: fixed;
+   bottom: 50px;
+   right: 50px;
+   background-color: #002c14;
+   text-decoration: none;
+   width: 140px;
+   line-height: 140px;
+   border-radius: 50%;
+   text-align: center;
+   
+   cursor: pointer;
+   box-shadow: 10px 10px 10px rgb(139, 139, 139);
+}
+.join_us:hover {
+   box-shadow: 5px 5px 8px gray;
+   transition: .5s;
+   scale: 1.05;
+}
+
+.footer_content {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   font-style: italic;
+   font-weight: bold;
+}
+
+.footer_content span {
+   margin: 5px;
 }
