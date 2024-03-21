@@ -14,6 +14,7 @@
       padding: 10px;
       margin: 10px;
       grid-row: 1;
+      background-color: #c7c7c794;
    }
    
    .discover_demo {
@@ -27,6 +28,7 @@
       margin-left: 10px;
       margin-right: 10px;
       grid-row: 2;
+      background-color: #c7c7c794;
    }
    
    .discover_calendar {
@@ -37,6 +39,7 @@
       padding: 10px;
       margin: 10px;
       grid-row: 3;
+      background-color: #c7c7c794;
    }
    
    .discover_main {
