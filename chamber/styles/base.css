@@ -452,3 +452,58 @@ section a {
 .footer_content span {
    margin: 5px;
 }
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+#menu {
+   font-size: 1.5rem;
+   border: 0;
+   text-decoration: none;
+   padding: .5rem .75rem;
+   background-color: #003d03;
+   color: white;
+   position: absolute;
+   top: -40px;
+   right: 40px;
+}
+
+#menu::before {
+   content: "☰";
+}
+
+#menu.open::before {
+   content: "X";
+}
+
+
+.navigation {
+   display: flex;
+   flex-direction: column;
+   list-style: none;
+   margin: auto;
+   width: 100%;
+}
+
+.navigation a {
+   display: none;
+   padding: .75rem;
+   text-decoration: none;
+   color: white;
+   font-weight: 700;
+   transition: 0.5s;
+   font-size: 22px;
+   text-align: center;
+}
+
+.navigation a:hover {
+   color: #023300;
+   text-shadow: 0 0 10px lightgreen;
+}
+
+.open a {
+   display: block;
+}

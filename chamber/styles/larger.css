@@ -165,4 +165,16 @@
       background-color: rgb(132, 233, 146);
       padding: 2px;
    }
+
+   #menu {
+      display: none;
+   }
+
+   .navigation {
+      flex-direction: row;
+   }
+   .navigation a {
+      display: block;
+      flex: 1 1 100%;
+   }
 }
