@@ -410,3 +410,8 @@ section a {
 #weather-icon {
    width: 100px;
 }
+
+.chamber_logo {
+   border-radius: 50%;
+   width: 50px;
+}
