@@ -34,21 +34,7 @@
 nav {
    width: 100%;
 }
-ul {
-   display: flex;
-   list-style-type: none;
-   justify-content: space-around;
-   width: 100%;
-}
-li a:hover {
-   color: rgb(0, 56, 129);
-}
-li a {
-   color: rgb(135, 250, 196);
-   text-decoration: none;
-   font-size: 20px;
-   transition: .5s;
-}
+
 body {
    font-family: Trebuchet MS, serif, cambria;
    text-align: center;
