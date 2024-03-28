@@ -1,0 +1,49 @@
+.scoots_logo {
+    width: 180px;
+    height: auto;
+    border-radius: 50%;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navigation {
+    display: flex;
+    border: 1px solid;
+    margin: auto;
+    padding: 10px;
+}
+
+.navigation a {
+    margin: auto;
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.navigation h1 {
+    margin: auto;
+    font-size: 70px;
+    padding: 10px;
+}
+
+.navigation img {
+    margin: auto;
+    padding: 10px;
+}
+
+.heroimage {
+    width: 100%;
+}
+
+.herowelcome {
+    position: absolute;
+    top: 190px;
+    left: 50px;
+    font-size: 70px;
+    font-family: "Zeyada", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
