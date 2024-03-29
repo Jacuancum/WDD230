@@ -1,11 +1,11 @@
 .scoots_logo {
-    width: 180px;
+    width: 130px;
     height: auto;
     border-radius: 50%;
 }
 
 .scoots_logo_small {
-    width: 90px;
+    width: 80px;
     height: auto;
     border-radius: 50%;
 }
@@ -30,7 +30,7 @@ body {
 
 .navigation h1 {
     margin: auto;
-    font-size: 70px;
+    font-size: 50px;
     padding: 10px;
 }
 
@@ -40,6 +40,10 @@ body {
 }
 
 .navigation div {
+    display: none;
+}
+
+.nav2 a {
     display: none;
 }
 
@@ -57,3 +61,28 @@ body {
     font-style: normal;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ #menu {
+    font-size: 1.5rem;
+    border: 0;
+    text-decoration: none;
+    padding: .5rem .75rem;
+    background-color: #000000;
+    color: white;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+ }
+ 
+ #menu::before {
+    content: "☰";
+ }
+ 
+ #menu.open::before {
+    content: "X";
+ }

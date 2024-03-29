@@ -1,4 +1,12 @@
 @media screen and (min-width: 1200px) {
+    .scoots_logo {
+        width: 160px;
+    }
+    
+    .scoots_logo_small {
+        width: 100px;
+    }
+    
     .navigation {
         display: flex;
         margin: auto;
@@ -30,5 +38,13 @@
 
     .navigation div a {
         margin: auto;
+    }
+
+    .nav2 a {
+        display: none;
+    }
+
+    #menu {
+        display: none;
     }
 }
