@@ -1,0 +1,45 @@
+{
+    "wardInformation": {
+    "familyName": "Chan",
+    "moveInDate": "2022-03-15",
+    "numberOfPeople": 7,
+    "visitedByBishopric": true,
+    "familyMembers": [
+      {
+        "name": "Jacob Chan",
+        "gender": "Male",
+        "birthdate": "1985-05-20"
+      },
+      {
+        "name": "Jane Chan",
+        "gender": "Female",
+        "birthdate": "1988-11-12"
+      },
+      {
+        "name": "David Chan",
+        "gender": "Male",
+        "birthdate": "2010-02-03"
+      },
+      {
+        "name": "Emily Chan",
+        "gender": "Female",
+        "birthdate": "2012-08-27"
+      },
+      {
+        "name": "Michael Chan",
+        "gender": "Male",
+        "birthdate": "2015-04-10"
+      },
+      {
+        "name": "Sophia Chan",
+        "gender": "Female",
+        "birthdate": "2018-09-18"
+      },
+      {
+        "name": "Greg Chan",
+        "gender": "Male",
+        "birthdate": "2020-12-05"
+      }
+    ]
+    }
+  }

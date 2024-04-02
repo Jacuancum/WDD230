@@ -1,0 +1,102 @@
+{
+    "lessons" : [
+        {
+            "lesson" : "01",
+            "links" : [
+                {
+                    "url" : "https://jacuancum.github.io/wdd230/lesson01/holygrail.html",
+                    "title" : "lesson 01 - holygrail"
+                }
+            ]
+        },
+        {
+            "lesson" : "02",
+            "links" : [
+                {
+                    "url" : "https://jacuancum.github.io/wdd230/lesson02/design.html",
+                    "title" : "lesson 02 - design"
+                },
+                {
+                    "url" : "https://jacuancum.github.io/wdd230/lesson02/design-principles.html",
+                    "title" : "lesson 02 - design-principles"
+                },
+                {
+                    "url" : "https://jacuancum.github.io/wdd230/lesson02/media-query.html",
+                    "title" : "lesson 02 - media-query"
+                }
+            ]
+        },
+        {
+            "lesson" : "03",
+            "links" : [
+                {
+                    "url" : "https://jacuancum.github.io/wdd230/lesson03/chamber-site-plan.html",
+                    "title" : "lesson 03 - chamber site plan"
+                }
+            ]
+        },
+        {
+            "lesson" : "04",
+            "links" : [
+                {
+                    "url" : "https://jacuancum.github.io/wdd230/index.html",
+                    "title" : "lesson 04"
+                }
+            ]
+        },
+        {
+            "lesson" : "05",
+            "links" : [
+                {
+                    "url" : "https://jacuancum.github.io/wdd230/lesson05/bom.html",
+                    "title" : "lesson 05 - bom"
+                }
+            ]
+        },
+        {
+            "lesson" : "06",
+            "links" : [
+                {
+                    "url" : "https://jacuancum.github.io/wdd230/lesson06/images/landscape.webp",
+                    "title" : "lesson 06 - landscape"
+                }
+            ]
+        },
+        {
+            "lesson" : "07",
+            "links" : [
+                {
+                    "url" : "https://jacuancum.github.io/wdd230/lesson07/lazyload.html",
+                    "title" : "lesson 07 - lazyload"
+                }
+            ]
+        },
+        {
+            "lesson" : "08",
+            "links" : [
+                {
+                    "url" : "https://jacuancum.github.io/wdd230/lesson08/tablebuild.html",
+                    "title" : "lesson 08 - tablebuild"
+                }
+            ]
+        },
+        {
+            "lesson" : "09",
+            "links" : [
+                {
+                    "url" : "https://jacuancum.github.io/wdd230/lesson09/prophets.html",
+                    "title" : "lesson 09 - prophets"
+                }
+            ]
+        },
+        {
+            "lesson" : "10",
+            "links" : [
+                {
+                    "url" : "https://jacuancum.github.io/wdd230/lesson10/weather.html",
+                    "title" : "lesson 10 - weather"
+                }
+            ]
+        }
+    ]
+}
