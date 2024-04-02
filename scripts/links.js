@@ -11,7 +11,7 @@ async function getLinks() {
   getLinks();
 
   const displayLinks = (lessons) => {
-    const lessonList = document.createElement('ul');
+    const lessonList = document.querySelector('.card');
 
     lessons.forEach((lesson) => {
         const lessonItem = document.createElement('li');
@@ -32,6 +32,4 @@ async function getLinks() {
         lessonItem.appendChild(linksList);
         lessonList.appendChild(lessonItem);
     });
-
-    document.body.appendChild(lessonList);
 }
