@@ -1,5 +1,5 @@
-document.addEventListener('DOMContentLoaded', function(){
-    const copyrightParagraph = document.getElementById('copyright');
-    const currentYear = new Date().getFullYear();
-    copyrightParagraph.textContent = `&copy ${currentYear} Jacob Chan, Hong Kong`;
-})
+document.addEventListener('DOMContentLoaded', function() {
+    const lastModified = new Date(document.lastModified);
+    const lastModifiedElement = document.getElementById('last_modified');
+    lastModifiedElement.textContent = lastModified.toLocaleString();
+  });
