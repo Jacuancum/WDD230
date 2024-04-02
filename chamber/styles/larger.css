@@ -177,4 +177,12 @@
       display: block;
       flex: 1 1 100%;
    }
+
+   .join_us a {
+      font-size: 33px;
+   }
+   .join_us {
+      width: 140px;
+      line-height: 140px;
+   }
 }
