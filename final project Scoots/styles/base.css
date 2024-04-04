@@ -48,6 +48,11 @@ body {
     width: 100%;
 }
 
+.hero {
+    background-size: cover;
+    height: 300px;
+}
+
 .herowelcome {
     position: absolute;
     top: 190px;
@@ -62,9 +67,9 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- }
+}
  
- #menu {
+#menu {
     display: block;
     font-size: 1.5rem;
     border: 0;
@@ -75,24 +80,65 @@ body {
     position: absolute;
     top: 40px;
     right: 20px;
- }
+}
  
- #menu::before {
+#menu::before {
     content: "☰";
- }
+}
  
- #menu.open::before {
+#menu.open::before {
     content: "X";
- }
+}
 
- footer {
+footer {
     text-align: center;
- }
+}
 
- footer p {
+footer p {
     color: lightslategray;
- }
+    text-shadow: 1px 1px 10px rgb(255, 255, 255);
+}
 
- .pin_icon {
+.con_us {
+    font-size: 50px;
+    color: rgb(82, 143, 163);
+    text-shadow: 1px 1px 10px rgb(255, 255, 255);
+}
+
+.contact_info {
+    word-spacing: 5px;
+    line-height: 25px;
+}
+.whatsapp_icon {
+    height: 25px;
+}
+
+.pin_icon {
     width: 20px;
- }
+}
+
+.map {
+    width: 100%; 
+    height: auto;
+    border: 0;
+    padding: 5px;
+}
+
+.footer_content {
+    padding: 10px;
+    color: white;
+    background-color: #000000;
+    word-spacing: 5px;
+    line-height: 25px;
+    text-wrap: balance;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ref {
+    padding: 10px;
+    color: gray;
+    background-color: #000000;
+    word-spacing: 5px;
+    text-wrap: wrap;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
