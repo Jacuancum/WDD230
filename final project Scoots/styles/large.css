@@ -1,4 +1,4 @@
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
     .scoots_logo {
         width: 160px;
     }
@@ -19,29 +19,6 @@
         text-decoration: none;
         color: black;
         padding: 10px;
-    }
-    
-    .navigation h1 {
-        margin: auto;
-        font-size: 70px;
-        padding: 10px;
-    }
-    
-    .navigation img {
-        margin: auto;
-        padding: 10px;
-    }
-    
-    .navigation div {
-        display: contents;
-    }
-
-    .navigation div a {
-        margin: auto;
-    }
-
-    .nav2 a {
-        display: none;
     }
 
     #menu {

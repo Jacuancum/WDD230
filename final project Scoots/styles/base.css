@@ -14,13 +14,13 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.navigation {
+.heading {
     display: flex;
     margin: auto;
     padding: 10px;
 }
 
-.navigation a {
+.heading a {
     margin: auto;
     font-size: 35px;
     text-decoration: none;
@@ -28,22 +28,19 @@ body {
     padding: 10px;
 }
 
-.navigation h1 {
-    margin: auto;
+.heading h1 {
+    margin: 10px;
     font-size: 50px;
     padding: 10px;
+    align-content: center;
 }
 
-.navigation img {
-    margin: auto;
+.heading img {
+    margin: 10px;
     padding: 10px;
 }
 
-.navigation div {
-    display: none;
-}
-
-.nav2 a {
+.heading .navigation {
     display: none;
 }
 
@@ -68,6 +65,7 @@ body {
  }
  
  #menu {
+    display: block;
     font-size: 1.5rem;
     border: 0;
     text-decoration: none;
@@ -85,4 +83,16 @@ body {
  
  #menu.open::before {
     content: "X";
+ }
+
+ footer {
+    text-align: center;
+ }
+
+ footer p {
+    color: lightslategray;
+ }
+
+ .pin_icon {
+    width: 20px;
  }

@@ -1,16 +1,3 @@
 @media screen and (min-width: 700px) {
-    .nav2 {
-        display: flex;
-    }
-
-    .nav2 a {
-        margin: auto;
-        text-decoration: none;
-        color: black;
-        font-size: 25px;
-    }
-
-    #menu {
-        display: none;
-    }
+    
 }
