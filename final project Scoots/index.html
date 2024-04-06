@@ -21,7 +21,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>        
+    <header>
         <div class="heading">
             <img class="scoots_logo" src="images/scoots_logo.PNG" alt="scoots_logo" loading="lazy">
             <h1 class="herotitle">Scoots</h1>
@@ -33,21 +33,34 @@
                 <a href="" title="Contact">Contact</a>
             </nav>
         </div>
-        <div class="hero">
+        <picture>
+            <source srcset="images/cozumel_large.webp" media="(min-width: 1000px)">
             <img class="heroimage" src="images/cozumel_3.webp" alt="Road trip landscape">
+        </picture>
+        <div class="hero">
+            <!--<img class="heroimage" src="images/cozumel_3.webp" alt="Road trip landscape">-->
         <h1 class="herowelcome">Welcome to Cozumel !</h1>
         </div>
-        
     </header>
-    <main>main</main>
+    <main>
+        <div class="weather_card">
+            <p>weather</p>
+            <div>
+                <p>Temperature <br><span id="current-temp"></span></p>
+                <figure>
+                    <img id="weather-icon" src="" alt="">
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+        </div>
+        <div></div>
+    </main>
     <footer>
         <div>
             <img class="scoots_logo_small" src="images/scoots_logo.PNG" alt="scoots_logo" loading="lazy">
             <h3>Scoots</h3>
         </div>
-        
         <p class="con_us">Contact Us</p>
-        
         <div class="contact_info">
             <h2>Location 1</h2>
             <p>5a Av. Nte. entre calle 2, Centro, 77600 Cozumel, Q.R., Mexico</p>

@@ -46,11 +46,11 @@ body {
 
 .heroimage {
     width: 100%;
+    padding: 5PX;
 }
 
 .hero {
     background-size: cover;
-    height: 300px;
 }
 
 .herowelcome {
@@ -89,7 +89,21 @@ body {
 #menu.open::before {
     content: "X";
 }
+/*-----------------------------------main-------------------------------------*/
 
+.weather_card {
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
+    word-spacing: 10px;
+}
+
+#weather-icon {
+    width: 80px;
+}
+
+/*-----------------------------------footer-------------------------------------*/
 footer {
     text-align: center;
 }
