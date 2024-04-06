@@ -92,15 +92,33 @@ body {
 /*-----------------------------------main-------------------------------------*/
 
 .weather_card {
-    width: 100%;
     margin: 5px;
     padding: 5px;
-    font-size: 25px;
-    word-spacing: 10px;
+    font-size: 23px;
+    border: 1px solid;
+    background-color:rgb(224, 224, 224) ;
+    text-align: center;
 }
 
 #weather-icon {
     width: 80px;
+}
+
+.motor_card {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    border: 1px solid;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.motor_card img {
+    width: 200px;
+}
+.motor_card span {
+    padding: 5px;
+    margin: 5px;
 }
 
 /*-----------------------------------footer-------------------------------------*/
