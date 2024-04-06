@@ -123,12 +123,54 @@ footer p {
     word-spacing: 5px;
     line-height: 25px;
 }
-.whatsapp_icon {
-    height: 25px;
-}
 
-.pin_icon {
-    width: 20px;
+.phonecall_icon {
+    height: 90px;
+    position: fixed;
+    right: 20px;
+    bottom: 320px;
+}
+.phonecall_icon:hover {
+    transition: .4s;
+    scale: 1.1;
+}
+.whatsapp_icon {
+    height: 90px;
+    position: fixed;
+    right: 20px;
+    bottom: 220px;
+}
+.whatsapp_icon:hover {
+    transition: .4s;
+    scale: 1.1;
+}
+.facebook_icon {
+    height: 90px;
+    position: fixed;
+    right: 20px;
+    bottom: 120px;
+}
+.facebook_icon:hover {
+    transition: .4s;
+    scale: 1.1;
+}
+.book_icon {
+    text-decoration: none;
+    color: #313131;
+    font-size: 25px;
+    text-align: center;
+    align-content: center;
+    border-radius: 50%;
+    border: 5px solid #313131;
+    height: 90px;
+    width: 90px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+.book_icon:hover {
+    transition: .4s;
+    scale: 1.1;
 }
 
 .map {
