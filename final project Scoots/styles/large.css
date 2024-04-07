@@ -21,7 +21,10 @@
         color: black;
         padding: 10px;
     }
-
+    .navigation a:hover {
+        transition: .4s;
+        scale: 1.1;
+    }
     #menu {
         display: none;
     }
