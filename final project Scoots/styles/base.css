@@ -62,6 +62,32 @@ body {
     font-weight: 400;
     font-style: normal;
 }
+
+/*.hero_change {
+    background-image: url(https://jacuancum.github.io/wdd230/final project Scoots/images/cozumel_3.webp);
+    animation: hero_change 10s infinite ease-in-out;
+}
+@keyframes hero_change {
+    0% {
+        background-image: url(https://jacuancum.github.io/wdd230/final project Scoots/images/cozumel_3.webp);
+    }
+    20% {
+        background-image: url(https://jacuancum.github.io/wdd230/final project Scoots/images/cozumel_1.webp);
+    }
+    40% {
+        background-image: url(https://jacuancum.github.io/wdd230/final project Scoots/images/jeepwrangler_2d_inside_1.webp);
+    }
+    60% {
+        background-image: url(https://jacuancum.github.io/wdd230/final project Scoots/images/jeepwrangler_2018.webp);
+    }
+    80% {
+        background-image: url(https://jacuancum.github.io/wdd230/final project Scoots/images/roadtrip_landscape_4.webp);
+    }
+    100% {
+        background-image: url(https://jacuancum.github.io/wdd230/final project Scoots/images/jeepwrangler_6.webp);
+    }
+}*/
+
 /*-----------------------------------hamburger-------------------------------------*/
 
 * {
