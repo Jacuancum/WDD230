@@ -153,6 +153,58 @@ table {
     border: 1px solid;
 }
 
+.reservations_main {
+    display: grid;
+    grid-template-columns: 1fr 400px 1fr;
+    margin-bottom: 50px;
+}
+
+.form {
+    padding: 10px;
+    margin: 5px;
+    display: block;
+    text-align: center;
+    grid-column: 2/3;
+    font-size: 22px;
+    box-shadow: 1px 1px 10px;
+}
+
+label {
+    display: block;
+}
+
+input {
+    padding: 5px;
+    margin: 5px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+select {
+    width: 210px;
+    padding: 5px;
+}
+
+#comments {
+    height: 80px;
+}
+
+button {
+    padding: 5px;
+}
+
+.contact_main {
+    display: grid;
+    grid-template-columns: 1fr 400px 1fr;
+    margin-bottom: 50px;
+}
+
+.map1, .map2 {
+    width: 500px;
+    height: 300px;
+    margin: 5px;
+    margin-bottom: 10px;
+}
 
 /*-----------------------------------footer-------------------------------------*/
 footer {
@@ -160,12 +212,12 @@ footer {
 }
 
 footer p {
-    color: lightslategray;
+    color: rgb(71, 82, 92);
     text-shadow: 1px 1px 10px rgb(255, 255, 255);
 }
 
 .con_us {
-    font-size: 50px;
+    font-size: 40px;
     color: rgb(82, 143, 163);
     text-shadow: 1px 1px 10px rgb(255, 255, 255);
 }
@@ -173,6 +225,10 @@ footer p {
 .contact_info {
     word-spacing: 5px;
     line-height: 25px;
+}
+
+.contact_info p {
+    font-size: 18px;
 }
 
 .phonecall_icon {
@@ -207,17 +263,18 @@ footer p {
 }
 .book_icon {
     text-decoration: none;
-    color: #313131;
+    color: #272727;
     font-size: 25px;
     text-align: center;
     align-content: center;
     border-radius: 50%;
-    border: 5px solid #313131;
+    border: 5px solid #272727;
     height: 90px;
     width: 90px;
     position: fixed;
     right: 20px;
     bottom: 20px;
+    background-color: rgba(250, 236, 215, 0.705);
 }
 .book_icon:hover {
     transition: .4s;
