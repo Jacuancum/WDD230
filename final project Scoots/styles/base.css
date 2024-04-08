@@ -206,6 +206,12 @@ button {
     margin-bottom: 10px;
 }
 
+.contact_info1 {
+    grid-column: 2/3;
+    text-align: center;
+    padding: 10px;
+}
+
 /*-----------------------------------footer-------------------------------------*/
 footer {
     text-align: center;
