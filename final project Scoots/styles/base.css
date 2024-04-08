@@ -136,9 +136,23 @@ table {
     margin: 5px;
 }
 
-.ren_header {
+.rental_main {
+    text-align: left;
+    
+}
+
+.rental_header {
     text-align: center;
 }
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid;
+}
+
 
 /*-----------------------------------footer-------------------------------------*/
 footer {

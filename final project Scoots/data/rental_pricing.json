@@ -3,56 +3,56 @@
         {
             "image": "https://jacuancum.github.io/wdd230/final project Scoots/images/hondametropolitan_2013_1.webp",
             "name": "Honda Metro Scooter",
-            "max Persons": "1",
-            "reservation Half Day (3hrs)": "$20",
-            "reservation Full Day": "$30",
-            "walk-In Half Day (3hrs)": "$25",
-            "walk-In Full Day": "$35"
+            "maxPersons": "1",
+            "reservationHalfDay(3hrs)": "$20",
+            "reservationFullDay": "$30",
+            "walk-InHalfDay(3hrs)": "$25",
+            "walk-InFullDay": "$35"
         },
         {
             "image": "https://jacuancum.github.io/wdd230/final project Scoots/images/hondadio_2020_2.webp",
             "name": "Honda Dio Scooter",
             "maxPersons": "2",
-            "reservation Half Day (3hrs)": "$30",
-            "reservation Full Day": "$40",
-            "walk-In Half Day (3hrs)": "$35",
-            "walk-In Full Day": "$45"
+            "reservationHalfDay(3hrs)": "$30",
+            "reservationFullDay": "$40",
+            "walk-InHalfDay(3hrs)": "$35",
+            "walk-InFullDay": "$45"
         },
         {
             "image": "https://jacuancum.github.io/wdd230/final project Scoots/images/hondaPCX150_2.webp",
             "name": "Honda PCX150 Scooter",
-            "max Persons": "2",
-            "reservation Half Day (3hrs)": "$40",
-            "reservation Full Day": "$50",
-            "walk-In Half Day (3hrs)": "$45",
-            "walk-In Full Day": "$55"
+            "maxPersons": "2",
+            "reservationHalfDay": "$40",
+            "reservationFullDay": "$50",
+            "walk-InHalfDay": "$45",
+            "walk-InFullDay": "$55"
         },
         {
             "image": "https://jacuancum.github.io/wdd230/final project Scoots/images/hondapioneer1000_1.webp",
             "name": "Honda Pioneer ATV",
-            "max Persons": "4",
-            "reservation Half Day (3hrs)": "$50",
-            "reservation Full Day": "$70",
-            "walk-In Half Day (3hrs)": "$60",
-            "walk-In Full Day": "$80"
+            "maxPersons": "4",
+            "reservationHalfDay": "$50",
+            "reservationFullDay": "$70",
+            "walk-InHalfDay": "$60",
+            "walk-InFullDay": "$80"
         },
         {
             "image": "https://jacuancum.github.io/wdd230/final project Scoots/images/jeepwrangler_4d_1.webp",
             "name": "Jeep Wrangler 4 door a/c",
-            "max Persons": "5",
-            "reservation Half Day (3hrs)": "$70",
-            "reservation Full Day": "$100",
-            "walk-In Half Day (3hrs)": "$85",
-            "walk-In Full Day": "$125"
+            "maxPersons": "5",
+            "reservationHalfDay": "$70",
+            "reservationFullDay": "$100",
+            "walk-InHalfDay": "$85",
+            "walk-InFullDay": "$125"
         },
         {
             "image": "https://jacuancum.github.io/wdd230/final project Scoots/images/jeepwrangler_2d_open_1.webp",
             "name": "Jeep Wrangler 2 door open",
-            "max Persons": "4",
-            "reservation Half Day (3hrs)": "$60",
-            "reservation Full Day": "$85",
-            "walk-In Half Day (3hrs)": "$70",
-            "walk-In Full Day": "$90"
+            "maxPersons": "4",
+            "reservationHalfDay": "$60",
+            "reservationFullDay": "$85",
+            "walk-InHalfDay": "$70",
+            "walk-InFullDay": "$90"
         }
     ]
 }
