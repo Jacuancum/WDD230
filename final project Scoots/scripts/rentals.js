@@ -26,11 +26,17 @@ const displayRentals = (rentals) => {
         portrait.setAttribute('width', '333');      
         maxPersonsInfo.textContent = `Max person: ${rental.maxPersons}`;
         resHD.textContent = `Reservation Half Day (3hrs): ${rental.reservationHalfDay}`;
+        resFD.textContent = `Reservation Full Day: ${rental.reservationFullDay}`;
+        walHD.textContent = `Walk-in Half Day (3hrs): ${rental.walkInHalfDay}`;
+        walFD.textContent = `Walk-in Full Day: ${rental.walkInFullDay}`;
 
         card.appendChild(fullName);
         card.appendChild(portrait);
         card.appendChild(maxPersonsInfo);
         card.appendChild(resHD);
+        card.appendChild(resFD);
+        card.appendChild(walHD);
+        card.appendChild(walFD);
         cards.appendChild(card);
     });
   };
