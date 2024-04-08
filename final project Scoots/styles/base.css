@@ -136,6 +136,10 @@ table {
     margin: 5px;
 }
 
+.ren_header {
+    text-align: center;
+}
+
 /*-----------------------------------footer-------------------------------------*/
 footer {
     text-align: center;
