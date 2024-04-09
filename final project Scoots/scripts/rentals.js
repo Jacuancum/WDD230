@@ -39,4 +39,4 @@ const displayRentals = (rentals) => {
         card.appendChild(walFD);
         cards.appendChild(card);
     });
-  };
+};

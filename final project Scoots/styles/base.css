@@ -156,12 +156,6 @@ body {
     color: #000000;
 }
 
-table {
-    border: 1px solid;
-    padding: 5px;
-    margin: 5px;
-}
-
 .rental_main {
     text-align: left;
     
@@ -176,12 +170,13 @@ table {
     flex-wrap: wrap;
     padding: 5px;
     margin: 10px;
-    border: 1px solid;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 
 .reservations_main {
     display: grid;
-    grid-template-columns: 1fr 400px 1fr;
+    grid-template-columns: 1fr 420px 1fr;
     margin-bottom: 50px;
 }
 
@@ -202,7 +197,7 @@ label {
 input {
     padding: 5px;
     margin: 5px;
-    width: 250px;
+    width: 270px;
     margin-bottom: 10px;
 }
 
@@ -236,6 +231,10 @@ button {
     grid-column: 2/3;
     text-align: center;
     padding: 10px;
+}
+
+.contact_info1 p {
+    font-size: 22px;
 }
 
 /*-----------------------------------footer-------------------------------------*/
