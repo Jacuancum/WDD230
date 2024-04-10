@@ -1,4 +1,4 @@
-const url = 'https://jacuancum.github.io/wdd230/final project Scoots/data/rental_pricing.json';
+const url = 'https://jacuancum.github.io/wdd230/final_project_Scoots/data/rental_pricing.json';
 const cards = document.querySelector('#cards');
 
 async function getRentalData() {
