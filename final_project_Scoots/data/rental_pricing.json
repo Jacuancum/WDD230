@@ -1,7 +1,7 @@
 {
     "rentals": [
         {
-            "image": "https://jacuancum.github.io/wdd230/final project Scoots/images/hondametropolitan_2013_1.webp",
+            "image": "https://jacuancum.github.io/wdd230/final_project_Scoots/images/hondametropolitan_2013_1.webp",
             "name": "Honda Metro Scooter",
             "maxPersons": "1",
             "reservationHalfDay(3hrs)": "$20",
@@ -10,7 +10,7 @@
             "walkInFullDay": "$35"
         },
         {
-            "image": "https://jacuancum.github.io/wdd230/final project Scoots/images/hondadio_2020_2.webp",
+            "image": "https://jacuancum.github.io/wdd230/final_project_Scoots/images/hondadio_2020_2.webp",
             "name": "Honda Dio Scooter",
             "maxPersons": "2",
             "reservationHalfDay(3hrs)": "$30",
@@ -19,7 +19,7 @@
             "walkInFullDay": "$45"
         },
         {
-            "image": "https://jacuancum.github.io/wdd230/final project Scoots/images/hondaPCX150_2.webp",
+            "image": "https://jacuancum.github.io/wdd230/final_project_Scoots/images/hondaPCX150_2.webp",
             "name": "Honda PCX150 Scooter",
             "maxPersons": "2",
             "reservationHalfDay": "$40",
@@ -28,7 +28,7 @@
             "walkInFullDay": "$55"
         },
         {
-            "image": "https://jacuancum.github.io/wdd230/final project Scoots/images/hondapioneer1000_1.webp",
+            "image": "https://jacuancum.github.io/wdd230/final_project_Scoots/images/hondapioneer1000_1.webp",
             "name": "Honda Pioneer ATV",
             "maxPersons": "4",
             "reservationHalfDay": "$50",
@@ -37,7 +37,7 @@
             "walkInFullDay": "$80"
         },
         {
-            "image": "https://jacuancum.github.io/wdd230/final project Scoots/images/jeepwrangler_4d_1.webp",
+            "image": "https://jacuancum.github.io/wdd230/final_project_Scoots/images/jeepwrangler_4d_1.webp",
             "name": "Jeep Wrangler 4 door a/c",
             "maxPersons": "5",
             "reservationHalfDay": "$70",
@@ -46,7 +46,7 @@
             "walkInFullDay": "$125"
         },
         {
-            "image": "https://jacuancum.github.io/wdd230/final project Scoots/images/jeepwrangler_2d_open_1.webp",
+            "image": "https://jacuancum.github.io/wdd230/final_project_Scoots/images/jeepwrangler_2d_open_1.webp",
             "name": "Jeep Wrangler 2 door open",
             "maxPersons": "4",
             "reservationHalfDay": "$60",
