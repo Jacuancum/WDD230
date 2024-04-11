@@ -97,7 +97,6 @@ body {
 }
  
 #menu {
-    display: block;
     font-size: 1.5rem;
     border: 0;
     text-decoration: none;
@@ -116,6 +115,35 @@ body {
 #menu.open::before {
     content: "X";
 }
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: auto;
+    width: 100%;
+ }
+ 
+ .navigation a {
+    display: none;
+    padding: .75rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    transition: 0.5s;
+    font-size: 22px;
+    text-align: center;
+ }
+
+.navigation a:hover {
+    color: #023300;
+    text-shadow: 0 0 10px rgb(50, 13, 255);
+ }
+
+.open a {
+    display: block;
+}
+
 /*-----------------------------------main-------------------------------------*/
 
 .weather_card {

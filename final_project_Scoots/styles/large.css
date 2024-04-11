@@ -14,7 +14,12 @@
         width: 75%;
     }
 
+    .navigation {
+        flex-direction: row;
+     }
+
     .navigation a {
+        display: block;
         margin: auto;
         font-size: 35px;
         text-decoration: none;
